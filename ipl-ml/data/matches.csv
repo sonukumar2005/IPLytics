@@ -1,0 +1,11 @@
+id,season,city,date,team1,team2,toss_winner,toss_decision,result,dl_applied,winner,win_by_runs,win_by_wickets,player_of_match,venue,umpire1,umpire2,umpire3
+1,2024,Mumbai,2024-03-22,Mumbai Indians,Chennai Super Kings,Mumbai Indians,bat,normal,0,Chennai Super Kings,0,6,Mustafizur Rahman,Wankhede Stadium,HDPK Dharmasena,CB Gaffaney,
+2,2024,Bangalore,2024-03-23,Royal Challengers Bangalore,Punjab Kings,Punjab Kings,field,normal,0,Royal Challengers Bangalore,0,4,V Kohli,M.Chinnaswamy Stadium,AK Chaudhary,KN Ananthapadmanabhan,
+3,2024,Chennai,2024-03-24,Chennai Super Kings,Gujarat Titans,Gujarat Titans,field,normal,0,Chennai Super Kings,63,0,S Dube,MA Chidambaram Stadium,HDPK Dharmasena,CB Gaffaney,
+4,2023,Mumbai,2023-04-01,Mumbai Indians,Lucknow Super Giants,Lucknow Super Giants,field,normal,0,Lucknow Super Giants,0,8,KL Rahul,Wankhede Stadium,AK Chaudhary,KN Ananthapadmanabhan,
+5,2022,Ahmedabad,2022-05-29,Gujarat Titans,Rajasthan Royals,Rajasthan Royals,bat,normal,0,Gujarat Titans,0,7,HH Pandya,Narendra Modi Stadium,HDPK Dharmasena,CB Gaffaney,
+6,2021,Dubai,2021-10-15,Chennai Super Kings,Kolkata Knight Riders,Kolkata Knight Riders,field,normal,0,Chennai Super Kings,27,0,F du Plessis,Dubai International Cricket Stadium,HDPK Dharmasena,CB Gaffaney,
+7,2024,Kolkata,2024-04-05,Kolkata Knight Riders,Mumbai Indians,Mumbai Indians,field,normal,0,Kolkata Knight Riders,18,0,V Iyer,Eden Gardens,AK Chaudhary,KN Ananthapadmanabhan,
+8,2024,Delhi,2024-04-06,Delhi Capitals,Sunrisers Hyderabad,Delhi Capitals,bat,normal,0,Sunrisers Hyderabad,0,5,TM Head,Arun Jaitley Stadium,HDPK Dharmasena,CB Gaffaney,
+9,2024,Hyderabad,2024-04-07,Sunrisers Hyderabad,Rajasthan Royals,Rajasthan Royals,field,normal,0,Sunrisers Hyderabad,1,0,Nithish Reddy,Rajiv Gandhi International Stadium,AK Chaudhary,KN Ananthapadmanabhan,
+10,2024,Lucknow,2024-04-08,Lucknow Super Giants,Gujarat Titans,Gujarat Titans,field,normal,0,Lucknow Super Giants,33,0,Yash Thakur,Ekana Cricket Stadium,HDPK Dharmasena,CB Gaffaney,
