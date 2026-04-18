@@ -1,0 +1,136 @@
+🚀 IPLytics — Real-Time IPL Analytics Dashboard
+<p align="center"> <b>Full-Stack Cricket Analytics Platform with Live Data + Historical Insights</b><br/> Built with Spring Boot, React, and Real IPL Data (2008–2024) </p>
+🌐 Live Preview (Optional)
+
+(Add deployed link if you host it later)
+
+📸 Preview
+<p align="center"> <img src="https://via.placeholder.com/800x400?text=IPLytics+Dashboard" alt="Dashboard Preview"/> </p>
+✨ Features
+📊 Historical Analytics
+IPL data from 2008–2024
+Season-wise performance insights
+Points table with Net Run Rate
+Team match history & head-to-head stats
+Match-level details with results & highlights
+⚡ Live Match System
+Real-time match updates using external API
+Auto-refresh every 5 seconds
+Smart fallback → shows recent matches if no live match
+Clean UI with LIVE badge 🔴
+📈 Interactive Visualizations
+Performance charts (Recharts)
+Venue-based insights
+Modern UI with animations (Framer Motion)
+🏗️ Architecture
+Frontend (React)
+       ↓
+REST API (Spring Boot)
+       ↓
+Service Layer (Business Logic)
+       ↓
+Repository Layer (JPA)
+       ↓
+Database / CSV Dataset
+🛠️ Tech Stack
+🔹 Backend
+Java (Spring Boot)
+REST API Design
+JPA / Hibernate
+Maven
+🔹 Frontend
+React.js
+Tailwind CSS
+Recharts
+Framer Motion
+🔹 Data
+IPL Dataset (CSV)
+OpenCSV Parser
+External API (CricAPI)
+📂 Project Structure
+IPLytics/
+├── ipl-backend/
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   ├── model/
+│   ├── dto/
+│   └── resources/data/
+│
+├── frontend/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── utils/
+⚙️ Setup Guide
+🔹 Clone Repo
+git clone https://github.com/YOUR_USERNAME/IPLytics.git
+cd IPLytics
+🔹 Backend Setup
+cd ipl-backend
+mvn clean install
+mvn spring-boot:run
+
+Backend runs at:
+
+http://localhost:8080
+🔹 Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+Frontend runs at:
+
+http://localhost:5173
+📂 Dataset Setup (IMPORTANT)
+
+⚠️ Dataset files are excluded (large size)
+
+👉 Download IPL dataset and place inside:
+
+ipl-backend/src/main/resources/data/
+
+Required:
+
+matches.csv
+deliveries.csv
+🔌 API Endpoints
+Endpoint	Description
+/api/years	IPL seasons
+/api/seasons	Season summaries
+/api/points-table/{year}	Points table
+/api/team-matches/{team}/{year}	Team matches
+/api/match/{id}	Match details
+/api/head-to-head	Team comparison
+/api/live-matches	Live matches
+/api/predict	Match prediction
+🧠 Backend Engineering Highlights
+Layered architecture (Controller → Service → Repository)
+Efficient CSV parsing & bulk data loading
+REST API design for scalable data delivery
+External API integration with fallback handling
+Clean, modular, and maintainable code
+🎯 Key Learnings
+Designing scalable backend systems
+Handling real-world datasets
+API integration and error handling
+Debugging production-level issues
+Writing clean and structured code
+🚀 Future Enhancements
+Player stats from deliveries dataset
+ML-based match prediction
+Full scorecard view
+Authentication system
+Deployment (AWS / Docker)
+👨‍💻 Author
+
+Sonu Kumar
+
+GitHub: https://github.com/sonukumar2005
+LinkedIn: (add your link)
+⭐ Support
+
+If you like this project:
+
+👉 Star the repo
+👉 Share feedback
