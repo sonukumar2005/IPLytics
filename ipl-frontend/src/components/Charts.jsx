@@ -9,7 +9,7 @@ import { getTeamData } from '../utils/teamData';
 // ── Team Performance (Wins vs Losses) ────────────────────────────────────────
 export const TeamPerformanceChart = ({ data }) => {
     if (!data || data.length === 0) return null;
-
+2
     const chartData = data.map(d => ({
         name: getTeamData(d.teamName)?.abbr || d.teamName?.substring(0, 3).toUpperCase(),
         wins: d.wins,
