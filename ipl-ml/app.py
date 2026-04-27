@@ -119,7 +119,7 @@ def venues():
     return jsonify({"venues": _get_lists()["venues"]})
 
 
-@app.route("/predict", methods=["POST"])
+@app.route("/predict", methods=["GET", "POST"])
 def predict():
     """
     Predict IPL match winner with calibrated probabilities.

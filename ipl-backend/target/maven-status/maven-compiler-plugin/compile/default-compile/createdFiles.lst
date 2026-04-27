@@ -18,5 +18,6 @@ com\ipl\dashboard\controller\DashboardController.class
 com\ipl\dashboard\dto\VenueDto.class
 com\ipl\dashboard\dto\LiveMatchDto.class
 com\ipl\dashboard\config\WebConfig.class
+com\ipl\dashboard\dto\PredictResponse.class
 com\ipl\dashboard\service\DataLoaderService.class
 com\ipl\dashboard\model\DeliveryRecord.class
