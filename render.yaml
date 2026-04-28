@@ -2,7 +2,7 @@ services:
   - type: web
     name: iplytics-backend
     env: java
-    rootDir: igit pl-backend
+    rootDir: ipl-backend
     buildCommand: mvn clean install
     startCommand: java -jar target/*.jar
     envVars:
