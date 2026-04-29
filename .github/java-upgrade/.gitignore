@@ -1,2 +1,14 @@
-*.csv
-data/
+# Maven
+target/
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
