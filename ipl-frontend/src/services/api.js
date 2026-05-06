@@ -11,7 +11,7 @@ const api = axios.create({
 
 export const fetchYears = () => api.get("/years").then(res => res.data);
 
-export const fetchSeasons = () => api.get("/seasons").then(res => res.data);
+export const fetchSeasons = () => api.get("/seasons").then(res => res.data);    
 
 // ==================== POINTS TABLE ====================
 
