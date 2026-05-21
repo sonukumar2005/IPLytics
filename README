@@ -64,7 +64,7 @@ IPLytics/
 │   └── utils/
 ⚙️ Setup Guide
 🔹 Clone Repo
-git clone https://github.com/YOUR_USERNAME/IPLytics.git
+git clone https://github.com/sonukumar2005/IPLytics.git
 cd IPLytics
 🔹 Backend Setup
 cd ipl-backend
